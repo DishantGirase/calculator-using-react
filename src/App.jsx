@@ -1,12 +1,12 @@
 import styles from "./App.module.css";
+import CalculatorInput from "./components/calculatorInput";
+import ButtonsContainer from "./components/buttonsContainer";
 
 function App() {
   return (
     <div className={styles.calculator}>
-      <input className={styles.calculatorInput} type="text" />
-      <div id="buttons-container">
-        <button>c</button>
-      </div>
+      <CalculatorInput></CalculatorInput>
+      <ButtonsContainer></ButtonsContainer>
     </div>
   );
 }
