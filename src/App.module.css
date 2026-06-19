@@ -1,2 +1,10 @@
 .calculator {
+  border: 1px solid rgb(112, 110, 110);
+  border-radius: 6px;
+  width: 200px;
+}
+.calculatorInput {
+  width: 180px;
+  margin: 15px 7px;
+  padding-bottom: 5px;
 }
